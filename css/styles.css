@@ -8,6 +8,8 @@
 }
 body {
   font-family: "Roboto", sans-serif;
+  color: var(--primary-slate);
+  background-color: #ffffff;
 }
 /* Header Container */
 .main-header {
@@ -15,13 +17,14 @@ body {
 }
 
 .logo {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
-  color: var(--primary-color);
+  text-transform: uppercase;
+  color: var(--primary-button);
 }
 .header-link {
   font-family: "Roboto";
@@ -33,14 +36,21 @@ body {
   color: var(--primary-color);
 }
 
+.header-link:hover {
+  color: #404bbf;
+}
+
 .header-address-link {
   font-family: "Roboto";
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
   color: var(--primary-slate);
+}
+
+.header-address-link:hover {
+  color: #404bbf;
 }
 
 /* Main Container */
@@ -53,8 +63,9 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 56px;
-  line-height: 60px;
+  line-height: 1.07;
   letter-spacing: 0.02em;
+  text-align: center;
   color: var(--white-text);
 }
 
@@ -67,8 +78,15 @@ body {
   gap: 10px;
   border-radius: 4px 0px 0px 0px;
   opacity: 0px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: var(--white-text);
+  line-height: 1.5;
   background-color: var(--primary-button);
   cursor: pointer;
+}
+.primary-button:hover {
+  background-color: #404bbf;
 }
 
 .primary-button-text {
@@ -76,7 +94,7 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--white-text);
 }
@@ -90,13 +108,31 @@ body {
   color: var(--primary-color);
 }
 
-.features-parahraph {
+.features-paragraph {
   font-family: "Roboto";
   font-size: 16px;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--primary-slate);
+}
+.our-team-section {
+  background-color: #f4f4fd;
+}
+
+.our-team-title {
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--primary-color);
+}
+
+.our-team-card-content {
+  background-color: #ffffff;
 }
 
 .our-team-name {
@@ -121,8 +157,10 @@ body {
   font-family: "Roboto";
   font-size: 36px;
   font-weight: 700;
-  line-height: 40px;
+  line-height: 1.11;
   letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
   color: var(--primary-color);
 }
 
