@@ -11,7 +11,7 @@ body {
   color: var(--primary-slate);
   background-color: #ffffff;
 }
-/* Header Container */
+
 .main-header {
   background-color: var(--white-text);
 }
@@ -40,9 +40,14 @@ body {
   color: #404bbf;
 }
 
+.header-link:focus {
+  color: #404bbf;
+}
+
 .header-address-link {
   font-family: "Roboto";
   font-weight: 400;
+  font-style: normal;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
@@ -53,7 +58,10 @@ body {
   color: #404bbf;
 }
 
-/* Main Container */
+.header-address-link:focus {
+  color: #404bbf;
+}
+
 .hero-section {
   background-color: var(--primary-color);
 }
@@ -86,6 +94,10 @@ body {
   cursor: pointer;
 }
 .primary-button:hover {
+  background-color: #404bbf;
+}
+
+.primary-button:focus {
   background-color: #404bbf;
 }
 
@@ -182,7 +194,6 @@ body {
   color: var(--primary-slate);
 }
 
-/* Footer */
 .footer-section {
   background-color: var(--primary-color);
 }
@@ -193,4 +204,8 @@ body {
   line-height: 24px;
   letter-spacing: 0.02em;
   color: var(--cloud-text);
+}
+
+.logo-section {
+  color: #f4f4fd;
 }
