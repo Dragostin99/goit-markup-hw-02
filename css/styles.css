@@ -29,7 +29,6 @@ body {
 }
 .header-link {
   font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -48,7 +47,6 @@ body {
 .header-address-link {
   font-family: "Roboto";
   font-weight: 400;
-  font-style: normal;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
@@ -79,14 +77,6 @@ body {
 }
 
 .primary-button {
-  width: Hug (169px) px;
-  height: Hug (56px) px;
-  top: 428px;
-  left: 636px;
-  padding: 16px 32px 16px 32px;
-  gap: 10px;
-  border-radius: 4px 0px 0px 0px;
-  opacity: 0px;
   font-weight: 500;
   letter-spacing: 0.04em;
   color: var(--white-text);
